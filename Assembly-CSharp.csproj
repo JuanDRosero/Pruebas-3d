@@ -64,6 +64,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Interaction System\CheckInteraction.cs" />
+    <Compile Include="Assets\Interaction System\Example Actions\Gate.cs" />
+    <Compile Include="Assets\Interaction System\Example Actions\Switch.cs" />
+    <Compile Include="Assets\Interaction System\Extra Assets\UI.cs" />
+    <Compile Include="Assets\Interaction System\IAction.cs" />
+    <Compile Include="Assets\Interaction System\InteractionReceiver.cs" />
+    <Compile Include="Assets\Scripts\Boton.cs" />
     <Compile Include="Assets\Scripts\JugadorController.cs" />
     <Compile Include="Assets\Scripts\TeleporterController.cs" />
     <Compile Include="Assets\Scripts\saltar.cs" />
