@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Boton : MonoBehaviour, IAction
 {
@@ -10,6 +11,11 @@ public class Boton : MonoBehaviour, IAction
     private Color inactivateColor;
     [SerializeField]
     private Material material;
+    public GameObject ui;
+    public Text tit;
+    public Text desc;
+    public string titulo;
+    public string texto;
 
     private bool activated;
     public void Activate()
@@ -18,10 +24,15 @@ public class Boton : MonoBehaviour, IAction
         if (activated)
         {
             material.color = activateColor;
+            ui.SetActive(true);
+            tit.text = titulo;
+            desc.text = texto;
+           
         }
         else
         {
             material.color = inactivateColor;
+           ui.SetActive(false);
         }
     }
 
