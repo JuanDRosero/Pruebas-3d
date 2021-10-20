@@ -14,8 +14,7 @@ public class Boton : MonoBehaviour, IAction
     public GameObject ui;
     public Text tit;
     public Text desc;
-    public string titulo;
-    public string texto;
+    public string Ruta;
 
     private bool activated;
     public void Activate()
@@ -25,8 +24,8 @@ public class Boton : MonoBehaviour, IAction
         {
             material.color = activateColor;
             ui.SetActive(true);
-            tit.text = titulo;
-            desc.text = texto;
+            tit.text = Lector.getTitulo(Ruta);
+            desc.text = Lector.getDesc(Ruta);
            
         }
         else

@@ -72,8 +72,18 @@
     <Compile Include="Assets\Interaction System\InteractionReceiver.cs" />
     <Compile Include="Assets\Scripts\Boton.cs" />
     <Compile Include="Assets\Scripts\JugadorController.cs" />
+    <Compile Include="Assets\Scripts\Lector.cs" />
     <Compile Include="Assets\Scripts\TeleporterController.cs" />
     <Compile Include="Assets\Scripts\saltar.cs" />
+    <None Include="Assets\Archivos\Electrica.txt" />
+    <None Include="Assets\Archivos\Bienestar.txt" />
+    <None Include="Assets\Archivos\Laboratorios.txt" />
+    <None Include="Assets\Archivos\Apoyo.txt" />
+    <None Include="Assets\Archivos\Electronica.txt" />
+    <None Include="Assets\Archivos\Industrial.txt" />
+    <None Include="Assets\Archivos\Catastral.txt" />
+    <None Include="Assets\Archivos\Sistemas.txt" />
+    <None Include="Assets\Archivos\Universidad.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
